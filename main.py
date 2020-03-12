@@ -7,7 +7,7 @@ from message import Comment
 import telegram
 
 
-bot = telebot.TeleBot("1114905420:AAEi3dlUi3GvWDAGXorkQ7AelYYLadQuh44")
+bot = telebot.TeleBot("MY TOKEN")
 
 
 @bot.message_handler(commands=['start', 'help'])
